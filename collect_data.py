@@ -9,7 +9,7 @@ max_results = 10
 
 tweets = client.search_recent_tweets(query=query, tweet_fields=['text'], max_results=max_results)
 
-# Conversion des tweets en DataFrame Pandas
+# Tweets conversion in Pandas DataFrame
 tweet_data = []
 for tweet in tweets.data:
     tweet_data.append({
@@ -17,6 +17,6 @@ for tweet in tweets.data:
     })
 df = pd.DataFrame(tweet_data)
 
-# Enregistrement du DataFrame dans un fichier CSV
+# Saving the DataFrame as a CSV file
 df.to_csv("data/tweets.csv", index=False)
 print("Données enregistrées dans tweets.csv")
