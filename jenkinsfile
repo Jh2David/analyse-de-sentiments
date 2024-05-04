@@ -28,8 +28,11 @@ def uploadToDatabricks() {
 }
 
 // 5. Exécuter les notebooks 2 et 3 sur Azure Databricks
+def notebookPath2 = "/Workspace/Users/jehan@lepont-learning.com/2 - Nettoyage et prétraitement des données"
+
+
 def runNotebooks() {
-    sh "databricks runs submit notebook --notebook-path \"/Workspace/Users/jehan@lepont-learning.com/2 - Nettoyage et prétraitement des données" --params \"{}\""
+sh "databricks runs submit notebook --notebook-path '$notebookPath2' --params '{}'"
 }
 
 pipeline {
