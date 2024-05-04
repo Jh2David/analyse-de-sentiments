@@ -39,7 +39,7 @@ pipeline {
     agent any
     environment {
         DATABRICKS_HOST = credentials('databricks_host')
-        DATABRICKS_CLIENT_ID = credentials('databricks_client-id')
+        DATABRICKS_CLIENT_ID = credentials('databricks_client_id')
         DATABRICKS_CLIENT_SECRET = credentials('databricks_client_secret')
     }
     stages {
