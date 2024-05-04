@@ -1,7 +1,6 @@
 // 1. Récupérer le fichier CSV depuis GitHub
 def gitClone() {
-    git clone https://github.com/Jh2David/analyse-de-sentiments
-    cd "/Workspace/Users/jehan@lepont-learning.com/"
+    git clone "https://github.com/Jh2David/analyse-de-sentiments"
     csv_file = "data/tweets.csv"
 }
 
