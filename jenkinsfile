@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh """
                 databricks workspace list
-                databricks notebook run --name 'my-notebook' --path '/path/to/notebook'
+                databricks notebook run --name '2 - Nettoyage et prétraitement des données' --path ''
                 """
             }
         }
