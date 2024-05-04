@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "host": "https://adb-151922556470421.1.azuredatabricks.net",
+  "remote_path": "/Users/jehan@lepont-learning.com/.ide/analyse_de_sentiments-5c6ffad3",
+  "last_modified_times": {
+    ".gitignore": "2024-05-02T16:19:24.254450761+02:00",
+    ".vscode/settings.json": "2024-05-02T16:18:25.966394895+02:00"
+  },
+  "local_to_remote_names": {
+    ".gitignore": ".gitignore",
+    ".vscode/settings.json": ".vscode/settings.json"
+  },
+  "remote_to_local_names": {
+    ".gitignore": ".gitignore",
+    ".vscode/settings.json": ".vscode/settings.json"
+  }
+}

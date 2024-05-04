@@ -1,3 +1,38 @@
+// 1. Récupérer le fichier CSV depuis GitHub
+def gitClone() {
+    git clone https://github.com/Jh2David/analyse-de-sentiments
+    cd "/Workspace/Users/jehan@lepont-learning.com/"
+    csv_file = "data/tweets.csv"
+}
+
+// 2. Vérifier si le fichier CSV a été modifié depuis la dernière exécution
+def checkCSVModified() {
+    if (sh(script: "git diff --quiet $csv_file", returnStatus: true) == 0) {
+        echo "Aucune modification du fichier CSV détectée. Arrêt du script."
+        return true
+    }
+    return false
+}
+
+// 3. Vérifier que le fichier CSV n'est pas vide
+def checkCSVNotEmpty() {
+    if (sh(script: "[ ! -s \"$csv_file\" ]", returnStatus: true) == 0) {
+        echo "Le fichier CSV est vide. Impossible de continuer."
+        return false
+    }
+    return true
+}
+
+// 4. Transférer le fichier CSV vers Azure Databricks
+def uploadToDatabricks() {
+    sh "dbfs cp $csv_file dbfs:/data/tweets.csv"
+}
+
+// 5. Exécuter les notebooks 2 et 3 sur Azure Databricks
+def runNotebooks() {
+    sh "databricks runs submit notebook --notebook-path \"/Workspace/Users/jehan@lepont-learning.com/2 - Nettoyage et prétraitement des données" --params \"{}\""
+}
+
 pipeline {
     agent any
     environment {
@@ -6,12 +41,15 @@ pipeline {
         DATABRICKS_CLIENT_SECRET = credentials('databricks-client-secret')
     }
     stages {
-        stage('Run Databricks Notebook') {
+        stage('Prepare Environment') {
             steps {
-                sh """
-                databricks workspace list
-                databricks notebook run --name '2 - Nettoyage et prétraitement des données' --path ''
-                """
+                script {
+                    gitClone()
+                    if (!checkCSVModified() && checkCSVNotEmpty()) {
+                        uploadToDatabricks()
+                        runNotebooks()
+                    }
+                }
             }
         }
     }
