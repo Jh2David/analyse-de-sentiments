@@ -1,7 +1,8 @@
 import tweepy 
+import config
 import pandas as pd
 
-client = tweepy.Client(bearer_token="AAAAAAAAAAAAAAAAAAAAABHvtQEAAAAAZYZuSyP3Xt5GNPVE8SDaFL8km%2FE%3DHWxI0NcvZzQYB28eJummwmZ8zfb20lLBMHkpzERg4oLF9tFktq")
+client = tweepy.Client(bearer_token=config.api_key)
 
 # Search query with keywords and language filter
 query = "#F1 redbull (lang:fr OR lang:en) -is:retweet -is:reply" 
