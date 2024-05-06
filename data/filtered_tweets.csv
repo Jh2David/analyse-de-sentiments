@@ -1,0 +1,109 @@
+text,text_cleaned,tweet_lemmatized,tokens,filtered_tokens
+"Formula 1 is bringing the heat to Miami Grand Prix 🔥
+
+🏎️ Can Max Verstappen win again?
+🏎️ Will the new upgrades for McLaren and Mercedes work?
+
+Read our insights OUT NOW!
+
+#F1 #Formula1 #RedBull #Ferrari #CL16 #LewisHamilton #LandoNorris #MiamiGP
+
+https://t.co/tNar0iwflY","formula 1 is bringing the heat to miami grand prix 
+
+ can max verstappen win again
+ will the new upgrades for mclaren and mercedes work
+
+read our insights out now","formula 1 be bring the heat to miami grand prix 
+
+  can max verstappen win again 
+  will the new upgrade for mclaren and mercede work 
+
+ read our insight out now","['prix', 'mclaren', 'for', 'be', 'bring', 'work', 'grand', 'can', 'mercede', 'miami', 'to', 'upgrade', 'now', 'and', 'again', 'insight', 'out', 'will', 'heat', 'verstappen', 'formula', 'read', 'the', 'max', '1', 'new', 'our', 'win']","['prix', 'mclaren', 'bring', 'work', 'grand', 'mercede', 'miami', 'upgrade', 'insight', 'heat', 'verstappen', 'formula', 'read', 'max', '1', 'new', 'win']"
+"Formula 1 is bringing the heat to Miami Grand Prix 🔥
+
+Read our insights and predictions OUT NOW! 🏎️
+
+#F1 #Formula1 #RedBull #MaxVerstappen #Ferrari #CL16 #Mercedes #LewisHamilton #McLaren #LandoNorris #MiamiGP
+
+https://t.co/ZsuTm6aT5J","formula 1 is bringing the heat to miami grand prix 
+
+read our insights and predictions out now","formula 1 be bring the heat to miami grand prix 
+
+ read our insight and prediction out now","['formula', 'prediction', 'read', 'prix', 'the', 'miami', 'be', 'bring', '1', 'to', 'grand', 'our', 'and', 'insight', 'out', 'now', 'heat']","['formula', 'prediction', 'read', 'prix', 'miami', 'bring', '1', 'grand', 'insight', 'heat']"
+"The Miami Grand Prix is almost here and all teams are getting ready for a Sprint Weekend 🏎️🔥
+
+Read our insights for this weeks Formula 1 race 
+
+#F1 #Formula1 #RedBull #MaxVerstappen #Ferrari #CL16 #Mercedes #LewisHamilton #McLaren #LandoNorris #MiamiGP
+
+https://t.co/39MnA80P6v","the miami grand prix is almost here and all teams are getting ready for a sprint weekend 
+
+read our insights for this weeks formula 1 race","the miami grand prix be almost here and all team be get ready for a sprint weekend 
+
+ read our insight for this week formula 1 race","['get', 'prix', 'for', 'be', 'grand', 'miami', 'team', 'ready', 'and', 'almost', 'this', 'weekend', 'insight', 'a', 'race', 'sprint', 'formula', 'read', 'here', 'the', 'week', 'all', 'our', '1']","['get', 'prix', 'grand', 'miami', 'team', 'ready', 'almost', 'weekend', 'insight', 'race', 'sprint', 'formula', 'read', 'week', '1']"
+"The Miami Grand Prix is almost here and all teams are getting ready for a Sprint Weekend 🏎️🔥
+
+Read our insights for this weeks Formula 1 race 
+
+#F1 #Formula1 #RedBull #MaxVerstappen #Ferrari #CL16 #Mercedes #LewisHamilton #McLaren #LandoNorris #MiamiGP
+
+https://t.co/gfXIdIJ1AB","the miami grand prix is almost here and all teams are getting ready for a sprint weekend 
+
+read our insights for this weeks formula 1 race","the miami grand prix be almost here and all team be get ready for a sprint weekend 
+
+ read our insight for this week formula 1 race","['get', 'prix', 'for', 'be', 'grand', 'miami', 'team', 'ready', 'and', 'almost', 'this', 'weekend', 'insight', 'a', 'race', 'sprint', 'formula', 'read', 'here', 'the', 'week', 'all', 'our', '1']","['get', 'prix', 'grand', 'miami', 'team', 'ready', 'almost', 'weekend', 'insight', 'race', 'sprint', 'formula', 'read', 'week', '1']"
+"🎙️#Perez: “We're having a tremendous s eason again. The future looks bright. The #RedBull organization remains strong”    
+
+(#F1 press conference)     
+
+#MiamiGP https://t.co/h7atbf6sTv","were having a tremendous s eason again the future looks bright the  organization remains strong    
+
+ press conference","be have a tremendous s eason again the future look bright the   organization remain strong    
+
+  press conference","['look', 'again', 'tremendous', 'future', 'bright', 'remain', 'strong', 'press', 'the', 'organization', 'have', 's', 'be', 'conference', 'a', 'eason']","['tremendous', 'look', 'future', 'bright', 'remain', 'strong', 'press', 'organization', 'conference', 'eason']"
+"🎙️#Perez: “#Newey? It isn't ideal when someone like Adrian leaves. He spent 20 years at #RedBull, he probably he wants to do something else. Red Bull has a very strong organiziation. It isn't down to one individual. #Horner is ready”    
+
+(#F1 press conference)     
+
+#MiamiGP https://t.co/t8c5Ltl6Oc","it isnt ideal when someone like adrian leaves he spent 20 years at  he probably he wants to do something else red bull has a very strong organiziation it isnt down to one individual  is ready    
+
+ press conference","it be not ideal when someone like adrian leave he spend 20 year at   he probably he want to do something else red bull have a very strong organiziation it be not down to one individual   be ready    
+
+  press conference","['year', 'one', 'adrian', 'down', 'want', 'be', 'bull', 'probably', 'red', 'something', 'else', 'individual', 'at', 'he', 'strong', 'it', 'to', 'ready', 'like', 'leave', 'have', 'when', 'a', 'very', 'do', 'press', 'ideal', '20', 'not', 'spend', 'conference', 'someone', 'organiziation']","['year', 'one', 'adrian', 'want', 'bull', 'probably', 'red', 'something', 'else', 'individual', 'strong', 'ready', 'like', 'leave', 'press', 'ideal', '20', 'spend', 'conference', 'someone', 'organiziation']"
+"#F1 2016, #RedBull TAG Heuer RB12 V6-Turbo, Max Verstappen. The beginning of something special #MiamiGP https://t.co/toAxZecQJ5",2016  tag heuer rb12 v6turbo max verstappen the beginning of something special,2016   tag heuer rb12 v6turbo max verstappen the beginning of something special,"['of', 'something', 'heuer', 'rb12', 'the', 'v6turbo', 'special', 'max', '2016', 'beginning', 'tag', 'verstappen']","['something', 'heuer', 'rb12', 'v6turbo', 'special', 'max', '2016', 'beginning', 'tag', 'verstappen']"
+"Here we go #F1 #AdrianNewey #RedBull
+
+https://t.co/X8w2kwuGlE",here we go,here we go,"['here', 'go', 'we']",['go']
+"Here are the different RW configurations brought by the teams. 
+
+#Ferrari It remains with the same configuration, it will be worth seeing the incidence of BW! 
+
+#RedBull Excellent efficiency of DRS + little drag 
+
+(📸 @AlbertFabrega)
+#f1 #formula1 #MiamiGP https://t.co/7sVMxeBFEa","here are the different rw configurations brought by the teams 
+
+ it remains with the same configuration it will be worth seeing the incidence of bw 
+
+ excellent efficiency of drs  little drag","here be the different rw configuration bring by the team 
+
+  it remain with the same configuration it will be worth see the incidence of bw 
+
+  excellent efficiency of drs   little drag","['little', 'be', 'bring', 'see', 'worth', 'efficiency', 'same', 'of', 'configuration', 'by', 'remain', 'it', 'bw', 'team', 'different', 'with', 'drs', 'rw', 'will', 'excellent', 'here', 'the', 'incidence', 'drag']","['little', 'bring', 'see', 'worth', 'efficiency', 'configuration', 'remain', 'bw', 'team', 'different', 'drs', 'rw', 'excellent', 'incidence', 'drag']"
+"Max Verstappen chez Mercedes !!!
+
+Des sources autrichiennes affirment que l' équipe Mercedes  préparerai une Offre
+de 128 millions de livres sterling par an .
+Près de 150M€… 
+à la suite  sur Fb F1access
+#maxverstappen #F1 #RedBull #MercedesBenz #MiamiGP https://t.co/L0NaFJQDVa","max verstappen chez mercedes 
+
+des sources autrichiennes affirment que l équipe mercedes  préparerai une offre
+de 128 millions de livres sterling par an 
+près de 150m 
+à la suite  sur fb f1access","max verstappen chez mercede 
+
+ des source autrichienne affirment que l équipe mercede   préparerai une offre 
+ de 128 million de livre sterling par an 
+ près de 150 m 
+ à la suite   sur fb f1access","['source', 'chez', 'préparerai', 'des', 'livre', 'f1access', 'sur', 'mercede', 'l', 'la', 'à', 'million', 'm', 'autrichienne', 'affirment', '128', 'près', 'sterling', '150', 'offre', 'suite', 'fb', 'équipe', 'de', 'verstappen', 'max', 'que', 'an', 'une', 'par']","['source', 'chez', 'préparerai', 'livre', 'f1access', 'mercede', 'million', 'autrichienne', 'affirment', '128', 'près', 'sterling', '150', 'offre', 'suite', 'fb', 'équipe', 'verstappen', 'max']"
