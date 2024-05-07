@@ -38,9 +38,9 @@ sh "databricks runs submit notebook --notebook-path '$notebookPath2' --params '{
 pipeline {
     agent any
     environment {
-        DATABRICKS_HOST = credentials('databricks_host')
-        DATABRICKS_CLIENT_ID = credentials('databricks_client_id')
-        DATABRICKS_CLIENT_SECRET = credentials('databricks_client_secret')
+        DATABRICKS_HOST = credentials('databricks-host')
+        DATABRICKS_CLIENT_ID = credentials('databricks-client-id')
+        DATABRICKS_CLIENT_SECRET = credentials('databricks-client-secret')
     }
     stages {
         stage('Prepare Environment') {
